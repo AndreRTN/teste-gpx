@@ -45,8 +45,6 @@ const ShyBall: React.FC = () => {
     
   }, [translate])
   const randomNumber = (max: number, min: number) => {
-    console.log("max", max)
-    console.log("min", min)
     if(translate.translateY < 0) min = 0
     else {
       max = -max
