@@ -74,7 +74,7 @@ const ShyBall: React.FC = () => {
   }
   return (
     <div ref={ref} className='ball-container'>
-        <div aftercontent-ball={ballEmote}  ref={ballRef} style={{transform: `translate(${translate.translateX}px, ${translate.translateY}px)`, boxShadow: `0 0 0 ${shadow}px #FF4F2A`,}} onMouseOver={() => moveBall()} className='ball'/>  
+        <div aftercontent-ball={ballEmote}  ref={ballRef} style={{transform: `translate(${translate.translateX}px, ${translate.translateY}px)`, boxShadow: `0 0 0 ${shadow}px white`,}} onMouseOver={() => moveBall()} className='ball'/>  
     </div>
   )
 }
