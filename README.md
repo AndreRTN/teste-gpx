@@ -7,3 +7,5 @@ ao instalar as dependências, execute com yarn start / npm start
 
 O projeto tem um modelo responsivo na largura de 850px
 
+url do projeto no heroku:[teste-gpx](https://teste-gpx.herokuapp.com/)
+

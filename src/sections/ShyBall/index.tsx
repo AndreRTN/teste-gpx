@@ -13,7 +13,7 @@ type Dimensions = {
 
 const STATIC_EMOTE = "🙉"
 const MOVE_EMOTE = "🙈"
-const ANIMATION_TIME = 800
+const ANIMATION_TIME = 1000
 const ShyBall: React.FC = () => {
   
   useEffect(() => {
